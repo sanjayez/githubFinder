@@ -1,0 +1,27 @@
+.searchContainer h1{
+    background: url('../img/abstract-expressionism-abstract-painting-acrylic-1919287.jpg') no-repeat center center/cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.searchContainer .card{
+    background: transparent;
+}
+
+@media screen and (min-width:1200px){
+    .searchContainer h1{
+        font-size: 6rem;
+        background: url('../img/abstract-expressionism-abstract-painting-acrylic-1919287.jpg') no-repeat center center/cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .searchContainer, #profile, #repos {
+        text-align: center;
+    }
+}
